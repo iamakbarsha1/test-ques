@@ -1,8 +1,14 @@
 /*
-    Q1: An institute provides 3 cricket courses: A, B, and C. Each course has a fees associated
-    to it. Courses can be individually provided, or can be provided in a group, say AB or AC or
-    CAB. Rahul wants to apply in the institute such that he can get all the 3 courses and has to
-    pay the minimum possible fees.
+    Q3: Print all braces combinations for a given value n so that they are balanced. See the
+    example below.
+    For example, given n = 3, a solution set is:
+    [
+    &quot;((()))&quot;,
+    &quot;(()())&quot;,
+    &quot;(())()&quot;,
+    &quot;()(())&quot;,
+    &quot;()()()&quot;
+    ]
 */
 
 const generateParantheses = (n) => {
@@ -30,16 +36,10 @@ const generateParantheses = (n) => {
 console.log(generateParantheses(3)); // [ '((()))', '(()())', '(())()', '()(())', '()()()' ]
 
 /*
-    Q3: Print all braces combinations for a given value n so that they are balanced. See the
-    example below.
-    For example, given n = 3, a solution set is:
-    [
-    &quot;((()))&quot;,
-    &quot;(()())&quot;,
-    &quot;(())()&quot;,
-    &quot;()(())&quot;,
-    &quot;()()()&quot;
-    ]
+    Q1: An institute provides 3 cricket courses: A, B, and C. Each course has a fees associated
+    to it. Courses can be individually provided, or can be provided in a group, say AB or AC or
+    CAB. Rahul wants to apply in the institute such that he can get all the 3 courses and has to
+    pay the minimum possible fees.
 */
 
 function findMinimumFees(fees) {
